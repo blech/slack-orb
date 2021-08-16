@@ -1,0 +1,11 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": ":white_check_mark: <${CIRCLE_BUILD_URL}|Pipeline $CIRCLE_BUILD_NUM> *passed* for `${CIRCLE_BRANCH}` @ `${CIRCLE_SHA1:0:9}` by ${CIRCLE_USERNAME}"
+      }
+    }
+  ]
+}
